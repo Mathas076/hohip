@@ -27,6 +27,11 @@
     },
     "plugins": [
       "expo-router",
+      "expo-notifications",
+      {
+        "icon": "./assets/notification-icon.png",
+          "color": "#bd93f9"
+      },
       [
         "expo-splash-screen",
         {
@@ -38,7 +43,9 @@
             "backgroundColor": "#000000"
           }
         }
+        
       ]
+      
     ],
     "experiments": {
       "typedRoutes": true,
